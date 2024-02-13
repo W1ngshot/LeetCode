@@ -1,7 +1,9 @@
 ﻿namespace LeetCode._27._Remove_Element;
 
-public class Solution {
-    public int RemoveElement(int[] nums, int val) {
+public class Solution
+{
+    public int RemoveElement(int[] nums, int val)
+    {
         var left = 0;
         var right = nums.Length - 1;
         var result = nums.Length;

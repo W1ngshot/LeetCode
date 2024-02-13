@@ -11,6 +11,7 @@ public class Solution
                 x % 3 == 0 ? "Fizz" :
                 x % 5 == 0 ? "Buzz" : x.ToString());
         }
+
         return result;
     }
 }

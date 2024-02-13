@@ -1,7 +1,9 @@
 ﻿namespace LeetCode._1672._Richest_Customer_Wealth;
 
-public class Solution {
-    public int MaximumWealth(int[][] accounts) {
+public class Solution
+{
+    public int MaximumWealth(int[][] accounts)
+    {
         var max = 0;
         for (var i = 0; i < accounts.Length; i++)
         {

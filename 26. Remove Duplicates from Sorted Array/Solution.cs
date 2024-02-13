@@ -1,7 +1,9 @@
 ﻿namespace LeetCode._26._Remove_Duplicates_from_Sorted_Array;
 
-public class Solution {
-    public int RemoveDuplicates(int[] nums) {
+public class Solution
+{
+    public int RemoveDuplicates(int[] nums)
+    {
         if (nums.Length == 0)
         {
             return 0;
@@ -15,6 +17,7 @@ public class Solution {
                 nums[++k] = nums[i];
             }
         }
+
         return k + 1;
     }
 }
