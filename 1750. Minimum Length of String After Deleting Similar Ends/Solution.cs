@@ -8,12 +8,12 @@ public class Solution
         while (l < r && s[l] == s[r])
         {
             var ch = s[l];
-            while (l < r && s[l] == ch)
+            while (l <= r && s[l] == ch)
                 l++;
-            while (l < r && s[r] == ch)
+            while (l <= r && s[r] == ch)
                 r--;
         }
 
-        return s.Length - l * 2;
+        return r - l + 1;
     }
 }
