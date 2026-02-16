@@ -1,6 +1,5 @@
-﻿using LeetCode._80._Remove_Duplicates_from_Sorted_Array_II;
+﻿using LeetCode._169._Majority_Element;
 
-var arr = new[] {1, 1};
-var k = new Solution().RemoveDuplicates(arr);
+var arr = new[] {2,2,1,1,1,2,2};
+var k = new Solution().MajorityElement(arr);
 Console.WriteLine(k);
-Console.WriteLine(string.Join(" ", arr));
