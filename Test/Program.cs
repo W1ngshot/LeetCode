@@ -1,5 +1,5 @@
-﻿using LeetCode._121._Best_Time_to_Buy_and_Sell_Stock;
+﻿using LeetCode._14._Longest_Common_Prefix;
 
-var arr = new[] {5, 7};
-var k = new Solution().MaxProfit(arr);
+var arr = new[] {"ab", "a"};
+var k = new Solution().LongestCommonPrefix(arr);
 Console.WriteLine(k);
