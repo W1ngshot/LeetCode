@@ -1,5 +1,5 @@
-﻿using LeetCode._169._Majority_Element;
+﻿using LeetCode._121._Best_Time_to_Buy_and_Sell_Stock;
 
-var arr = new[] {2,2,1,1,1,2,2};
-var k = new Solution().MajorityElement(arr);
+var arr = new[] {5, 7};
+var k = new Solution().MaxProfit(arr);
 Console.WriteLine(k);
