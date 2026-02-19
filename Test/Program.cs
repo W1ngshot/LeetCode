@@ -1,5 +1,4 @@
-﻿using LeetCode._14._Longest_Common_Prefix;
+﻿using LeetCode._696._Count_Binary_Substrings;
 
-var arr = new[] {"ab", "a"};
-var k = new Solution().LongestCommonPrefix(arr);
+var k = new Solution().CountBinarySubstrings("00110011");
 Console.WriteLine(k);
