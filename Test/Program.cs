@@ -1,4 +1,4 @@
-﻿using LeetCode._696._Count_Binary_Substrings;
+﻿using LeetCode._125._Valid_Palindrome;
 
-var k = new Solution().CountBinarySubstrings("00110011");
+var k = new Solution().IsPalindrome("A man, a plan, a canal: Panama");
 Console.WriteLine(k);
