@@ -1,7 +1,8 @@
-﻿using LeetCode._762._Prime_Number_of_Set_Bits_in_Binary_Representation;
+﻿using LeetCode._189._Rotate_Array;
 
-var k = new Solution();
-const int left = 6;
-const int right = 10;
-var  result = k.CountPrimeSetBits(left, right);
-Console.WriteLine(result);
+var solution = new Solution();
+
+var arr = new[] {1,2,3,4,5,6};
+const int k = 2;
+solution.Rotate(arr, k);
+Console.WriteLine(string.Join(" ", arr));
