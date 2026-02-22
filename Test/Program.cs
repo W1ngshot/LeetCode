@@ -1,8 +1,8 @@
-﻿using LeetCode._392._Is_Subsequence;
+﻿using LeetCode._167._Two_Sum_II___Input_Array_Is_Sorted;
 
 var solution = new Solution();
 
-const string s = "abc";
-const string t = "ahbgdc";
-var ans = solution.IsSubsequence(s, t);
-Console.WriteLine(ans);
+int[] nums = [-1,0];
+const int t = -1;
+var ans = solution.TwoSum(nums, t);
+Console.WriteLine(string.Join(" ", ans));
