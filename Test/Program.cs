@@ -1,7 +1,8 @@
-﻿using LeetCode._868._Binary_Gap;
+﻿using LeetCode._392._Is_Subsequence;
 
 var solution = new Solution();
 
-const int k = 9;
-var ans = solution.BinaryGap(k);
+const string s = "abc";
+const string t = "ahbgdc";
+var ans = solution.IsSubsequence(s, t);
 Console.WriteLine(ans);
