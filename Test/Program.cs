@@ -1,8 +1,8 @@
-﻿using LeetCode._167._Two_Sum_II___Input_Array_Is_Sorted;
+﻿using LeetCode._1461._Check_If_a_String_Contains_All_Binary_Codes_of_Size_K;
 
 var solution = new Solution();
 
-int[] nums = [-1,0];
-const int t = -1;
-var ans = solution.TwoSum(nums, t);
+const string s = "11001";
+const int k = 2;
+var ans = solution.HasAllCodes(s, k);
 Console.WriteLine(string.Join(" ", ans));
