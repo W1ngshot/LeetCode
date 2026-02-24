@@ -1,8 +1,8 @@
-﻿using LeetCode._290._Word_Pattern;
+﻿using LeetCode._242._Valid_Anagram;
 
 var solution = new Solution();
 
-var pattern = "abba";
-var s = "dog cat cat dog";
-var ans = solution.WordPattern(pattern, s);
+var s = "anagram";
+var t = "nagaram";
+var ans = solution.IsAnagram(s, t);
 Console.WriteLine(string.Join(" ", ans));
