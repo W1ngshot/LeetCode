@@ -1,4 +1,4 @@
-﻿namespace LeetCode.Q1._LRU_Cache;
+﻿namespace LeetCode._146._LRU_Cache;
 
 public class LRUCache(int capacity)
 {

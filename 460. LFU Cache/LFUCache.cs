@@ -1,4 +1,4 @@
-﻿namespace LeetCode.Q2._LFU_Cache;
+﻿namespace LeetCode._460._LFU_Cache;
 
 public class LFUCache(int capacity)
 {
