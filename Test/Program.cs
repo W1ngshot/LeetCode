@@ -1,7 +1,8 @@
-﻿using LeetCode._11._Container_With_Most_Water;
+﻿using LeetCode._290._Word_Pattern;
 
 var solution = new Solution();
 
-var arr = new[] { 1, 8, 6, 2, 5, 4, 8, 3, 7 };
-var ans = solution.MaxArea(arr);
+var pattern = "abba";
+var s = "dog cat cat dog";
+var ans = solution.WordPattern(pattern, s);
 Console.WriteLine(string.Join(" ", ans));
