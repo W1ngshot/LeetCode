@@ -1,7 +1,7 @@
-﻿using LeetCode._3852._Smallest_Pair_With_Different_Frequencies;
+﻿using LeetCode._1680._Concatenation_of_Consecutive_Binary_Numbers;
 
 var solution = new Solution();
 
-var nums = new[] { 1, 1, 2, 2, 3, 4 };
-var ans = solution.MinDistinctFreqPair(nums);
+var n = 12;
+var ans = solution.ConcatenatedBinary(n);
 Console.WriteLine(string.Join(" ", ans));
