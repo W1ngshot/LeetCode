@@ -1,7 +1,7 @@
-﻿using LeetCode._1356._Sort_Integers_by_The_Number_of_1_Bits;
+﻿using LeetCode._3854._Minimum_Operations_to_Make_Array_Parity_Alternating;
 
 var solution = new Solution();
 
-var nums = new[] { 0, 1, 2, 3, 4, 5, 6, 7, 8 };
-var ans = solution.SortByBits(nums);
+var nums = new[] { -8, 9 };
+var ans = solution.MakeParityAlternating(nums);
 Console.WriteLine(string.Join(" ", ans));
