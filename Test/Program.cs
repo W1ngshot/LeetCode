@@ -1,7 +1,7 @@
-﻿using LeetCode._3854._Minimum_Operations_to_Make_Array_Parity_Alternating;
+﻿using LeetCode._3852._Smallest_Pair_With_Different_Frequencies;
 
 var solution = new Solution();
 
-var nums = new[] { -8, 9 };
-var ans = solution.MakeParityAlternating(nums);
+var nums = new[] { 1, 1, 2, 2, 3, 4 };
+var ans = solution.MinDistinctFreqPair(nums);
 Console.WriteLine(string.Join(" ", ans));
