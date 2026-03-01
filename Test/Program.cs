@@ -1,7 +1,7 @@
-﻿using LeetCode._1680._Concatenation_of_Consecutive_Binary_Numbers;
+﻿using LeetCode._1689._Partitioning_Into_Minimum_Number_Of_Deci_Binary_Numbers;
 
 var solution = new Solution();
 
-var n = 12;
-var ans = solution.ConcatenatedBinary(n);
+var n = "27346209830709182346";
+var ans = solution.MinPartitions(n);
 Console.WriteLine(string.Join(" ", ans));
