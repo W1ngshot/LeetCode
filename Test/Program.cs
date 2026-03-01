@@ -1,7 +1,7 @@
-﻿using LeetCode._1689._Partitioning_Into_Minimum_Number_Of_Deci_Binary_Numbers;
+﻿using LeetCode._20._Valid_Parentheses;
 
 var solution = new Solution();
 
-var n = "27346209830709182346";
-var ans = solution.MinPartitions(n);
+var n = "([)]";
+var ans = solution.IsValid(n);
 Console.WriteLine(string.Join(" ", ans));
