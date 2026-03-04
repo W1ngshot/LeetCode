@@ -1,12 +1,12 @@
-﻿using LeetCode._1545._Find_Kth_Bit_in_Nth_Binary_String;
+﻿using LeetCode._1582._Special_Positions_in_a_Binary_Matrix;
 
 var solution = new Solution();
 
-var n = 3;
-var k = 7;
-var ans = new List<char>();
-for (var i = 1; i <= k; i++)
+var n = new[]
 {
-    ans.Add(solution.FindKthBit(n, i));
-}
+    new[] { 1, 0, 0 },
+    new[] { 0, 0, 1 },
+    new[] { 1, 0, 0 }
+};
+var ans = solution.NumSpecial(n);
 Console.WriteLine(string.Join(" ", ans));
