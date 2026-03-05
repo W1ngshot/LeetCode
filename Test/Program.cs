@@ -1,12 +1,7 @@
-﻿using LeetCode._1582._Special_Positions_in_a_Binary_Matrix;
+﻿using LeetCode._1758._Minimum_Changes_To_Make_Alternating_Binary_String;
 
 var solution = new Solution();
 
-var n = new[]
-{
-    new[] { 1, 0, 0 },
-    new[] { 0, 0, 1 },
-    new[] { 1, 0, 0 }
-};
-var ans = solution.NumSpecial(n);
+var s = "0100";
+var ans = solution.MinOperations(s);
 Console.WriteLine(string.Join(" ", ans));
