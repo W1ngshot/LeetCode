@@ -1,7 +1,7 @@
-﻿using LeetCode._1758._Minimum_Changes_To_Make_Alternating_Binary_String;
+﻿using LeetCode._1784._Check_if_Binary_String_Has_at_Most_One_Segment_of_Ones;
 
 var solution = new Solution();
 
-var s = "0100";
-var ans = solution.MinOperations(s);
+var s = "110";
+var ans = solution.CheckOnesSegment(s);
 Console.WriteLine(string.Join(" ", ans));
