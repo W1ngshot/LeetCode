@@ -1,9 +1,8 @@
-﻿using LeetCode._67._Add_Binary;
+﻿using LeetCode._1888._Minimum_Number_of_Flips_to_Make_the_Binary_String_Alternating;
 
 var solution = new Solution();
 
-var a = "11";
-var b = "1";
+var s = "1110";
 
-var ans = solution.AddBinary(a, b);
+var ans = solution.MinFlips(s);
 Console.WriteLine(string.Join(" ", ans));
