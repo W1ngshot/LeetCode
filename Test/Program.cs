@@ -1,8 +1,11 @@
-﻿using LeetCode._1888._Minimum_Number_of_Flips_to_Make_the_Binary_String_Alternating;
+﻿using LeetCode._1980._Find_Unique_Binary_String;
 
 var solution = new Solution();
 
-var s = "1110";
+var nums = new[]
+{
+    "111", "011", "001"
+};
 
-var ans = solution.MinFlips(s);
+var ans = solution.FindDifferentBinaryString(nums);
 Console.WriteLine(string.Join(" ", ans));
