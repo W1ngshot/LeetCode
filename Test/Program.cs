@@ -1,11 +1,6 @@
-﻿using LeetCode._1980._Find_Unique_Binary_String;
+﻿using LeetCode._3129._Find_All_Possible_Stable_Binary_Arrays_I;
 
 var solution = new Solution();
 
-var nums = new[]
-{
-    "111", "011", "001"
-};
-
-var ans = solution.FindDifferentBinaryString(nums);
+var ans = solution.NumberOfStableArrays(3, 3, 2);
 Console.WriteLine(string.Join(" ", ans));
