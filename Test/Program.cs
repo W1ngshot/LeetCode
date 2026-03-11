@@ -1,6 +1,6 @@
-﻿using LeetCode._3129._Find_All_Possible_Stable_Binary_Arrays_I;
+﻿using LeetCode._1009._Complement_of_Base_10_Integer;
 
 var solution = new Solution();
 
-var ans = solution.NumberOfStableArrays(3, 3, 2);
+var ans = solution.BitwiseComplement(4);
 Console.WriteLine(string.Join(" ", ans));
