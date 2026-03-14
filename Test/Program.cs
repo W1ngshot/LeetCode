@@ -1,6 +1,6 @@
-﻿using LeetCode._3296._Minimum_Number_of_Seconds_to_Make_Mountain_Height_Zero;
+﻿using LeetCode._1415._The_k_th_Lexicographical_String_of_All_Happy_Strings_of_Length_n;
 
 var solution = new Solution();
 
-var ans = solution.MinNumberOfSeconds(5, [1]);
+var ans = solution.GetHappyString(3, 8);
 Console.WriteLine(string.Join(" ", ans));
