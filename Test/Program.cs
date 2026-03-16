@@ -1,19 +1,7 @@
-﻿using LeetCode._1622._Fancy_Sequence;
+﻿using LeetCode._1878._Get_Biggest_Three_Rhombus_Sums_in_a_Grid;
 
-var fancy = new Fancy();
+var solution = new Solution();
 
-fancy.Append(2);   // fancy sequence: [2]
-fancy.AddAll(3);   // fancy sequence: [2+3] -> [5]
-fancy.Append(7);   // fancy sequence: [5, 7]
-fancy.MultAll(2);  // fancy sequence: [5*2, 7*2] -> [10, 14]
-var ans1 = fancy.GetIndex(0); // return 10
-Console.WriteLine(ans1);
-fancy.AddAll(3);   // fancy sequence: [10+3, 14+3] -> [13, 17]
-fancy.Append(10);  // fancy sequence: [13, 17, 10]
-fancy.MultAll(2);  // fancy sequence: [13*2, 17*2, 10*2] -> [26, 34, 20]
-var ans2 = fancy.GetIndex(0); // return 26
-Console.WriteLine(ans2);
-var ans3 = fancy.GetIndex(1); // return 34
-Console.WriteLine(ans3);
-var ans4 = fancy.GetIndex(2); // return 20
-Console.WriteLine(ans4);
+int[][] grid = [[3, 4, 5, 1, 3], [3, 3, 4, 2, 3], [20, 30, 200, 40, 10], [1, 5, 5, 4, 1], [4, 3, 2, 2, 5]];
+var ans = solution.GetBiggestThree(grid);
+Console.WriteLine(string.Join(' ', ans));
